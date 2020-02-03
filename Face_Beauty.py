@@ -32,7 +32,7 @@ gif64en = r'R0lGODlhfQB9APcAAAAAAAwMDBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBERERERERER
 
 def TencentFaceBeauty(pic_str, white, smooth, facelift, eyeenlarge):
     try:
-        cred = credential.Credential("AKIDPahlcEegusa5KwJSTs43nmhRvL4YZnXM", "qRegT0G59zaw46sN7WgaCdzsc7QehosM")
+        cred = credential.Credential("ID", "Key")
         httpProfile = HttpProfile()
         httpProfile.endpoint = "fmu.tencentcloudapi.com"
 
